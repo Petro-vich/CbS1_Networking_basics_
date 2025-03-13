@@ -1,0 +1,17 @@
+Feb 07 11:27:44.624 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Feb 07 11:27:44.624 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 53699.
+Feb 07 11:27:44.625 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 07 11:27:44.626 HYPERVISOR: exec_cmd: hypervisor working_dir /home/gaylesga/GNS3/projects/part2/project-files/dynamips 
+Feb 07 11:27:44.626 GENERAL: working_dir=/home/gaylesga/GNS3/projects/part2/project-files/dynamips
+Feb 07 11:27:44.626 HYPERVISOR: exec_cmd: hypervisor working_dir /home/gaylesga/GNS3/projects/part2/project-files/dynamips/736a2dad-c0cc-4ff8-8b18-64b88b9923c3 
+Feb 07 11:27:44.626 GENERAL: working_dir=/home/gaylesga/GNS3/projects/part2/project-files/dynamips/736a2dad-c0cc-4ff8-8b18-64b88b9923c3
+Feb 07 11:27:44.626 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Feb 07 11:27:44.626 VM: VM R1 created.
+Feb 07 11:27:44.626 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5004 
+Feb 07 11:27:44.626 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Feb 07 11:27:44.626 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Feb 07 11:27:44.626 HYPERVISOR: exec_cmd: vm set_ios R1 /home/gaylesga/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Feb 07 11:27:44.627 HYPERVISOR: exec_cmd: vm get_status R1 
+Feb 07 11:27:44.627 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60bf8ba0 
+Feb 07 11:27:44.627 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Feb 07 11:27:44.627 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c201.0325.0000 

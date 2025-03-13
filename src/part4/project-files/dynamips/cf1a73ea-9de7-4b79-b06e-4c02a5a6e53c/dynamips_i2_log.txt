@@ -1,0 +1,20 @@
+Feb 07 11:54:20.985 HYPERVISOR: Release 0.2.23-amd64/Linux (tag 2023010200)
+Feb 07 11:54:20.985 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 55145.
+Feb 07 11:54:20.992 HYPERVISOR: exec_cmd: hypervisor version 
+Feb 07 11:54:20.992 HYPERVISOR: exec_cmd: hypervisor working_dir /home/gaylesga/GNS3/projects/d8d6a1e6-0632-44d1-8eb8-24306c0fb9d0/project-files/dynamips 
+Feb 07 11:54:20.992 GENERAL: working_dir=/home/gaylesga/GNS3/projects/d8d6a1e6-0632-44d1-8eb8-24306c0fb9d0/project-files/dynamips
+Feb 07 11:54:20.992 HYPERVISOR: exec_cmd: hypervisor working_dir /home/gaylesga/GNS3/projects/d8d6a1e6-0632-44d1-8eb8-24306c0fb9d0/project-files/dynamips/6f43bf8b-0283-416c-a432-ff8f65c3365c 
+Feb 07 11:54:20.992 GENERAL: working_dir=/home/gaylesga/GNS3/projects/d8d6a1e6-0632-44d1-8eb8-24306c0fb9d0/project-files/dynamips/6f43bf8b-0283-416c-a432-ff8f65c3365c
+Feb 07 11:54:20.992 HYPERVISOR: exec_cmd: vm create R1 1 c3725 
+Feb 07 11:54:20.992 VM: VM R1 created.
+Feb 07 11:54:20.992 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5000 
+Feb 07 11:54:20.992 HYPERVISOR: exec_cmd: c3725 get_mac_addr R1 
+Feb 07 11:54:20.992 HYPERVISOR: exec_cmd: vm set_nvram R1 256 
+Feb 07 11:54:20.993 HYPERVISOR: exec_cmd: vm set_ios R1 /home/gaylesga/GNS3/images/IOS/c3725-adventerprisek9-mz124-15.image 
+Feb 07 11:54:20.993 HYPERVISOR: exec_cmd: vm get_status R1 
+Feb 07 11:54:20.993 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x60bf8ba0 
+Feb 07 11:54:20.993 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Feb 07 11:54:20.994 HYPERVISOR: exec_cmd: c3725 set_mac_addr R1 c201.0891.0000 
+Feb 07 11:54:21.029 HYPERVISOR: exec_cmd: nio create_udp udp-a48b19eb-db5d-4556-88e7-e3a77f837bf9 10002 127.0.0.1 10003 
+Feb 07 11:54:21.237 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-a48b19eb-db5d-4556-88e7-e3a77f837bf9 
+Feb 07 11:54:21.237 HYPERVISOR: exec_cmd: vm get_status R1 
